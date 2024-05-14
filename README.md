@@ -26,6 +26,7 @@ User diharap telah melakukan setup rust yang diperlukan sebelum menjalankan prog
     ```bash
     cargo run
     ```
+4. Jika user ingin mengubah graf yang digunakan, user dapat menggantinya pada file `input.txt` yang terletak dalam root directory
 
 ## Anggota
 
