@@ -49,7 +49,14 @@ fn tsp(
 }
 
 fn main() {
-    let filename = "input.txt";
+    // Meminta input nama file dari user
+    println!("Masukkan path file dari graf: ");
+    let mut filename = String::new();
+    io::stdin()
+        .read_line(&mut filename)
+        .expect("Gagal membaca input");
+    let filename = filename.trim();
+
     let distan = read_file(filename).expect("Gagal membaca file");
 
     let n = distan.len();
